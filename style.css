@@ -24,7 +24,7 @@ header h1 {
 
 .navbar {
     background-color: #f1f1f1;
-    display:list-item;
+    display:flex;
     justify-content: center;
     margin: auto;
     padding: 5px;
