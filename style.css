@@ -1,185 +1,161 @@
 body {
+    background-color:azure;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #272727;
-    margin: 10;
-    padding: 0;
-    width: auto;
+    max-width: auto;
+    min-width: auto;
+    margin: auto;
 }
+
+
 
 header {
-    background-color: #4CAF50;
-    color: #fff;
+    background-color: rgb(0, 187, 100);
+    color: azure;
+    size: 1rem;
     text-align: center;
-    padding: 1rem 0;
-    max-width: 900px;
-    margin:auto;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 3rem;
-}
-
-.navbar {
-    background-color: #f1f1f1;
-    display:flex;
-    justify-content: center;
-    margin: auto;
     padding: 5px;
-    max-width: 890px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    max-width: auto;
+    min-width: auto;
+    margin: auto;
 }
 
-.nav-item {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+
+.menubar {
+    background-color: #fff;
+    display:flex;
+    max-width: auto;
+    min-width: auto;
+    margin: auto;
+    padding: 10px;
+    column-gap: 7px;
+    justify-content: center;
+}
+
+.menu {
+    display:inline;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    max-width: auto;
+    min-width: auto;
+    margin: auto;
+}
+
+.menu1 {
+    display:inline;
+    background-color: rgb(0, 187, 100);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    max-width: auto;
+    min-width: auto;
+    margin: auto;
     border-radius: 5px;
 }
 
-.nav-link {
-    display: inline-block;
-    padding: 10px 20px;
-    text-decoration: none;
-    color: #333;
-    transition: background-color 0.3s ease, color 0.3s ease;
-    
+.menu:hover {
+    background-color:  rgb(0, 187, 100);
+    color: azure;
+    text-decoration: underline;
+    border-radius: 4px;
+
 }
 
-.nav-link:hover {
-    background-color: #4CAF50;
-    color: white;
+.menu.active {
+    background-color:  rgb(0, 187, 100);
+    color: azure;
+    text-decoration: underline;
+    border-radius: 4px;
+}
+
+.content {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+
+}
+
+.intro {
+    border-radius: 5px;
+    color: rgb(0, 187, 100);
+    box-shadow: #b8b7b7;
+    background-color: aliceblue;
+    padding: 2px;
+    text-align: justify;
+}
+
+.exp {
+    color:#fff ;
+    background-color:rgb(0, 187, 100) ;
+    padding: 5px;
     border-radius: 5px;
 }
 
-.nav-link.active {
-    background-color: #4CAF50;
-    color: white;
-    border-radius: 5px;
+.exp2 {
+    color:rgb(0, 187, 100) ;;
+    background-color:none;
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
-.container {
-    max-width: 835px;
-    margin: 2rem auto;
-    background-color: #cfcfcf;
-    padding: 2rem;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+.exp4 {
+    background-color: #fff;
+    display:flex;
+    max-width: auto;
+    min-width: auto;
+    margin: auto;
+    padding: 10px;
+    column-gap: 10px;
+    justify-content: center;
+}
+
+.experince {
     border-radius: 10px;
+    padding: 2px;
+    background-color: none;
 }
 
-.profile-image {
-    text-align: center;
-}
 
-.profile-image img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-}
-
-.section-heading {
-    font-size: 2rem;
-    margin-top: 2rem;
-    color: #4CAF50;
-}
-
-.section-content {
-    margin-bottom: 2rem;
-}
-
-.section-content p {
-    margin: 0;
-    line-height: 1.6;
+.edu-desc {
+    display: flex;
+    margin-left: 0;
 }
 
 .highschool {
     background-color: #fff;
     display: flex;
-    margin: 2rem auto;
-    max-width: 900px;
-    padding: 1rem 0;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Add shadow effect */
-    border-radius: 10px; /* Make image corners round */
-}
-
-.description {
-    margin-left: 20px;
-    float: left;
-
+    padding: 2px;
 }
 
 
-.highschool_image {
+
+
+.pvpit {
     max-width: 30%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Add shadow effect */
     border-radius: 10px; /* Make image corners round */
-    margin-left: 15px;
+    margin-left: 2%;
 }
 
-.bucket_image {
-    height: 150px;
-    width: 150px;
-     /* Add shadow effect */
-    border-radius: 10px; /* Make image corners round */
-    margin-left: 15px;
-}
-
-.programming-languages {
-    margin-top: 1rem;
-}
-
-.programming-languages ul {
-    list-style: none;
-    padding: 0;
-}
-
-.programming-languages ul li {
-    display:inline-flex;
-    margin-right: auto;
-    padding:5px;
-    background-color: #4CAF50;
-    color: #fff;
+.test {
+    background-color:#fff;
+    color: rgb(0, 0, 0);
     border-radius: 5px;
-    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 2px;
 }
 
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 40px;
-    max-width: 790px;
-    margin: auto;
-    margin-top: 35px;
-}
-
-.gallery-item {
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    width: fit-content;
-}
-
-.gallery-img {
-    width: 350px;
-    height: 350px;
-    display: block;
-    border-radius: 10px 10px 0 0;
-}
-
-.cert-img {
-    width: 400px;
-    height: 300px;
-    display: block;
-    border-radius: 10px 10px 0 0;
-}
-
-.caption {
+.test01 {
+    background-color:#fff;
+    display: flex;
     padding: 10px;
-    background-color: #fff;
-    border-radius: 0 0 10px 10px;
-    text-align: center;
+    text-align: left;
 }
+
+.cont-list {
+    display: flex;
+    padding: 5px;
+    background-color:#fff;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
